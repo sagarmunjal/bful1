@@ -1,0 +1,145 @@
+/*  h1 & h3 text font and styling */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,100');
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: hsla(0,0%,9%,.4);
+    font-size: 3rem;
+    font-weight: 400;
+    
+    /*! font-family: 'Josefin Sans', sans-serif; */
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight:100;
+}
+
+/*  centering the layout  */
+
+.section {
+  max-width: 800px;
+  margin: auto;
+}
+
+
+/*   grid style  */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-auto-rows: 150px;
+  grid-auto-flow: row dense;
+}
+
+a {
+  background: #e0e0e0;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+  opacity: 0.5;
+}
+
+a:hover {
+  opacity: 1;  
+}
+
+.item { 
+  background: #e0e0e0;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+  opacity: 0.5;
+}
+
+.item:hover{
+  opacity: 1;
+}
+
+
+.item--medium {
+  grid-row-end: span 2;
+}
+
+.item--large {
+  grid-row-end: span 3;
+}
+
+.item--full {
+  grid-column-end: auto;
+}
+
+a:nth-of-type(1) {
+  background-image: url("https://farm5.staticflickr.com/4487/37496169322_a811343055_k.jpg");
+}
+a:nth-of-type(2) {
+  background-image: url("https://farm5.staticflickr.com/4469/36817465654_0e78fdcbc3_k.jpg");
+}
+a:nth-of-type(3) {
+  background-image: url("https://farm5.staticflickr.com/4474/23675204598_59608ccce6_k.jpg");
+}
+a:nth-of-type(4) {
+  background-image: url("https://farm5.staticflickr.com/4482/37479499456_a624f20069_k.jpg");
+}
+
+a:nth-of-type(5) {
+  background-image: url("https://farm5.staticflickr.com/4496/23675225498_48f9d08012_k.jpg");
+}
+
+a:nth-of-type(6) {
+  background-image: url("https://farm5.staticflickr.com/4455/36858016793_c77fe1a7dc_k.jpg");
+}
+
+a:nth-of-type(7) {
+  background-image: url("https://farm5.staticflickr.com/4452/23675220818_e72cde5278_k.jpg");
+}
+
+a:nth-of-type(8) {
+  background-image: url("https://farm5.staticflickr.com/4452/36817493694_fdfd75944b_k.jpg");
+}
+a:nth-of-type(9) {
+  background-image: url("https://farm5.staticflickr.com/4451/36857983633_407cd65dba_k.jpg");
+}
+
+a:nth-of-type(10) {
+  background-image: url("https://farm5.staticflickr.com/4457/37527265261_ed02eaf763_k.jpg");
+}
+
+a:nth-of-type(11) {
+  background-image: url("https://farm5.staticflickr.com/4486/37527271921_df3d1d178b_k.jpg");
+}
+
+a:nth-of-type(12) {
+  background-image: url("https://farm5.staticflickr.com/4479/36817460584_8551ff1af2_k.jpg");
+}
+
+a:nth-of-type(13) {
+  background-image: url("https://farm5.staticflickr.com/4497/37527277251_4bdc2cd5a6_k.jpg");
+}
+
+a:nth-of-type(14) {
+  background-image: url("https://farm5.staticflickr.com/4472/36817491494_dce8a84603_k.jpg");
+}
+
+a:nth-of-type(15) {
+  background-image: url("https://farm5.staticflickr.com/4514/37496163792_4a3fada098_h.jpg");
+}
+
+
+/*  bringing both fonts closer */
+
+.section > h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.section > h1 {
+  margin-top: 0;
+  padding-top: 0;
+  line-height:44px;
+}
+
+
