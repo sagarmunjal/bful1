@@ -46,7 +46,9 @@
 /* Placing text over Full width background */
 
 #text {
+	color:white;
 	font-family: 'Raleway',sans-serif;
+	font-size: 1.5rem;
 	letter-spacing: 0.7rem;
 	position: absolute;
 	padding:1.5rem;
@@ -56,7 +58,7 @@
 	left:0;
 	display: flex;
 	align-items: flex-end;
-  justify-content: center;
+  	justify-content: center;
 }
 
 #text a {
